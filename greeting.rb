@@ -1,5 +1,6 @@
-def greeting
-  'Hello'
+def greeting(name)
+ return "Hello,#{name}"
+  "good morinig,#{name}"
 end
 
-puts greeting
+puts greeting('John')
